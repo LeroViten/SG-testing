@@ -23,9 +23,10 @@ const schema = yup
     number: yup
       .string('e.g. +380630000000')
       .required('Provide valid phone number')
+      .min(13)
       .matches(
         phoneRegEx,
-        'Phone number can consist of numbers, spaces, dashes, brackets and start with +'
+        'Phone number can can consist of numbers, spaces, dashes, brackets and start with + e.g. +380630000000'
       ),
     password: yup
       .string()
