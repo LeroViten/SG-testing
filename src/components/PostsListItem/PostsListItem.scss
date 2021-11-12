@@ -1,0 +1,16 @@
+.postsListItem {
+  border-radius: 5px;
+  border: 2px solid #b00b69;
+  padding: 5px 5px;
+  margin-bottom: 15px;
+
+  &__title {
+    margin-bottom: 10px;
+  }
+  &__text {
+    font-size: small;
+  }
+  &__user {
+    margin-bottom: 5px;
+  }
+}

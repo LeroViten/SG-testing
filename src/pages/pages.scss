@@ -1,0 +1,41 @@
+@import '../styles/shared.scss';
+
+.authForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  width: 280px;
+  border-radius: 5px;
+  padding: 15px 10px;
+  border: 2px solid #efefef;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  &__input {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 5px;
+  }
+  &__btn {
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+    color: $white-color;
+    background-color: $indigo-color;
+    transition: all $transition-duration $transition-function;
+    &:hover {
+      background-color: #960959;
+      transform: scale(1.03);
+    }
+  }
+}
+
+.rangeSliderContainer {
+  padding: 20px 15px;
+}
+
+.errMessage {
+  margin-bottom: 3px;
+  font-style: italic;
+  font-size: small;
+}

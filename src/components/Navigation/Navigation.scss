@@ -1,0 +1,22 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 500;
+  color: black;
+  font-size: 18px;
+  transition: all 250ms linear;
+  &:hover {
+    transform: scale(0.95);
+  }
+}
+
+// for router v5 Navlink
+.activeLink {
+  color: #b00b69;
+}
+
+// for router v6 Navlink
+.active {
+  color: #b00b69;
+}

@@ -1,0 +1,24 @@
+@import '../../styles/shared.scss';
+
+.filterForm {
+  &__input {
+    margin-bottom: 5px;
+    margin-right: 5px;
+    width: 200px;
+    height: 30px;
+  }
+  &__btn {
+    height: 35px;
+    width: 70px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    background-color: $indigo-color;
+    transition: all $transition-duration $transition-function;
+
+    &:hover {
+      background-color: #920a57;
+      transform: scale(1.03);
+    }
+  }
+}
